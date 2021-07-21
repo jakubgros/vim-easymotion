@@ -51,21 +51,21 @@ let g:EasyMotion_hl_move           = get(g:,
     \ 'EasyMotion_hl_move', 'EasyMotionMoveHL')
 
 let s:target_hl_defaults = {
-    \   'gui'     : ['NONE', '#ff0000' , 'bold']
-    \ , 'cterm256': ['NONE', '196'     , 'bold']
-    \ , 'cterm'   : ['NONE', 'red'     , 'bold']
+    \   'gui'     : ['#1E1E1E', '#ff0000' , 'bold']
+    \ , 'cterm256': ['#1E1E1E', '196'     , 'bold']
+    \ , 'cterm'   : ['#1E1E1E', 'red'     , 'bold']
     \ }
 
 let s:target_hl2_first_defaults = {
-    \   'gui'     : ['NONE', '#ffb400' , 'bold']
-    \ , 'cterm256': ['NONE', '11'      , 'bold']
-    \ , 'cterm'   : ['NONE', 'yellow'  , 'bold']
+    \   'gui'     : ['#1E1E1E', '#ffb400' , 'bold']
+    \ , 'cterm256': ['#1E1E1E', '11'      , 'bold']
+    \ , 'cterm'   : ['#1E1E1E', 'yellow'  , 'bold']
     \ }
 
 let s:target_hl2_second_defaults = {
-    \   'gui'     : ['NONE', '#b98300' , 'bold']
-    \ , 'cterm256': ['NONE', '3'       , 'bold']
-    \ , 'cterm'   : ['NONE', 'yellow'  , 'bold']
+    \   'gui'     : ['#1E1E1E', '#b98300' , 'bold']
+    \ , 'cterm256': ['#1E1E1E', '3'       , 'bold']
+    \ , 'cterm'   : ['#1E1E1E', 'yellow'  , 'bold']
     \ }
 
 let s:shade_hl_defaults = {
